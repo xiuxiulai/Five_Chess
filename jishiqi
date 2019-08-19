@@ -1,0 +1,5 @@
+import datetime
+
+now_time = datetime.datetime.now()
+time1_str = datetime.datetime.strftime(now_time,'%Y-%m-%d %H:%M:%S')
+print(time1_str)
